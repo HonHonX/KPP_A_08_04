@@ -18,13 +18,13 @@ int main () {
 	
 	//
 	char string[] = "C://Eigene Dateien/FOM/C-Code/main.c";
-	char *pointer = strstr(string,".");
-	if(pointer){
-		pointer++;
-		printf("Extension: %s",pointer);
+	char *extension = strstr(string,".");
+	if(extension){
+		extension++;
+		printf("Extension: %s",extension);
 	}
-		
-		
+	printf("Dateiname: %s", strrchr(string,"/")+1);
+			
 	
 	//Ende
 	printf("\n\n");
