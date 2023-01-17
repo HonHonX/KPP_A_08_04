@@ -21,9 +21,9 @@ int main () {
 	char *extension = strstr(string,".");
 	if(extension){
 		extension++;
-		printf("Extension: %s",extension);
+		printf("\nExtension: %s",extension);
 	}
-	printf("Dateiname: %s", strrchr(string,"/")+1);
+	printf("\nDateiname: %s", strrchr(string,"/")+1);
 			
 	
 	//Ende
