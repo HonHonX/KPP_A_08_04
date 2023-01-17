@@ -21,7 +21,7 @@ int main () {
 		extension++;
 		printf("\nExtension: %s",extension);
 	}
-	char *dateiname = strrchr(string,'/');
+	char *dateiname = strrchr(string,'\\');
 	if(dateiname){
 		dateiname++;
 		printf("\nDateiname: %s",dateiname);
