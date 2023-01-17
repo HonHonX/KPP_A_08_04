@@ -23,7 +23,7 @@ int main () {
 		extension++;
 		printf("\nExtension: %s",extension);
 	}
-	printf("\nDateiname: %s", strrchr(string,"/")+1);
+	printf("\nDateiname: %s", *strrchr(string,"/")+1);
 			
 	
 	//Ende
