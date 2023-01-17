@@ -18,7 +18,7 @@ int main () {
 	
 	//
 	char string[] = "C:\Eigene Dateien\FOM\C-Code\main.c";
-	printf("%s",string[2]);
+	printf("%s",string[0]);
 	
 	
 	//Ende
