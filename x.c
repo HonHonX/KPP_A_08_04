@@ -18,10 +18,12 @@ int main () {
 	
 	//
 	char string[] = "C://Eigene Dateien/FOM/C-Code/main.c";
-	if(strstr(string,"."))
-		printf("true");
-	
-		//char extension[] = 
+	char pointer = strstr(string,".");
+	if(pointer){
+		printf("%c",pointer);
+	}
+		
+		
 	
 	//Ende
 	printf("\n\n");
