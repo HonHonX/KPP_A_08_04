@@ -17,14 +17,11 @@ int main () {
 	//
 	char string[] = "C:\\Eigene Dateien\\FOM\\C-Code\\main.c";
 	char *extension = strstr(string,".");
-	if(extension){
-		extension++;
-		printf("\nExtension: %s",extension);
-	}
+	if(extension)
+		printf("\nExtension: %s",extension+1);
 	char *dateiname = strrchr(string,'\\');
-	if(dateiname){
-		dateiname++;
-		printf("\nDateiname: %s",dateiname);
+	if(dateiname)
+		printf("\nDateiname: %s",dateiname+1);
 	}
 	*dateiname = '\0';
 	printf("\nVerzeichnis: %s",string);
