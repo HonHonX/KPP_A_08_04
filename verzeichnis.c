@@ -22,7 +22,6 @@ int main () {
 	char *dateiname = strrchr(string,'\\');
 	if(dateiname)
 		printf("\nDateiname: %s",dateiname+1);
-	}
 	*dateiname = '\0';
 	printf("\nVerzeichnis: %s",string);
 			
