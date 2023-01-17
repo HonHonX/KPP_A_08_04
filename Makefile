@@ -1,4 +1,4 @@
-NAME = x
+NAME = verzeichnis
 
 default: $(NAME)
 
