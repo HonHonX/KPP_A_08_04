@@ -18,7 +18,7 @@ int main () {
 	
 	//
 	char string[] = "C://Eigene Dateien/FOM/C-Code/main.c";
-	if(strstr(string,'.'))
+	if(strstr(string,"."))
 		printf("true");
 	
 		//char extension[] = 
