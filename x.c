@@ -29,7 +29,7 @@ int main () {
 		printf("\nDateiname: %s",dateiname);
 	}
 	*dateiname = '\0';
-	printf("Verzeichnis: %s,string);
+	printf("Verzeichnis: %s",string);
 			
 	
 	//Ende
