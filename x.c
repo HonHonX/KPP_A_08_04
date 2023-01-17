@@ -21,7 +21,7 @@ int main () {
 	char *pointer = strstr(string,".");
 	if(pointer){
 		pointer++;
-		printf("%s",pointer);
+		printf("Extension: %s",pointer);
 	}
 		
 		
