@@ -20,7 +20,7 @@ int main () {
 	char string[] = "C://Eigene Dateien/FOM/C-Code/main.c";
 	char *pointer = strstr(string,".");
 	if(pointer){
-		printf("%c",pointer);
+		printf("%p",pointer);
 	}
 		
 		
