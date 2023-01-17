@@ -20,7 +20,9 @@ int main () {
 	char string[] = "C://Eigene Dateien/FOM/C-Code/main.c";
 	char *pointer = strstr(string,".");
 	if(pointer){
-		printf("%p",string[pointer]);
+		pointer++;
+		char* extension[] = &pointer;
+		printf("%s",extension);
 	}
 		
 		
