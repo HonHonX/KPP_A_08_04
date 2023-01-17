@@ -28,6 +28,8 @@ int main () {
 		dateiname++;
 		printf("\nDateiname: %s",dateiname);
 	}
+	dateiname = '\0';
+	printf("Verzeichnis: %s,string);
 			
 	
 	//Ende
