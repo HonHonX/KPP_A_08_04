@@ -1,17 +1,15 @@
 #include<stdio.h>
 #include<string.h>
 
-//Funktions Prototypen
-
 //Hauptprogramm
 int main () {
 	/*
-	*
+	*	Übung zum Umgang mit Strings
 	*/
 	
 	printf("\n *************************************** ");
 	printf("\n *   ^,,,,^   *                        * ");
-	printf("\n *  ( o x o)  *                        * ");
+	printf("\n *  ( o x o)  *    Verzeichnis         * ");
 	printf("\n *  ( 7   7)  *                        * ");
 	printf("\n *   ´´´´´´   *                ©S.Buch * ");
 	printf("\n *************************************** \n\n");
@@ -36,5 +34,3 @@ int main () {
 	printf("\n\n");
 	return 0;
 }
-
-//Funktionen
