@@ -15,7 +15,7 @@ int main () {
 	printf("\n *************************************** \n\n");
 	
 	//
-	char string[] = "C://Eigene Dateien/FOM/C-Code/main.c";
+	char string[] = "C:\\Eigene Dateien\\FOM\\C-Code\\main.c";
 	char *extension = strstr(string,".");
 	if(extension){
 		extension++;
