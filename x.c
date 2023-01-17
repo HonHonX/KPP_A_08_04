@@ -18,8 +18,10 @@ int main () {
 	
 	//
 	char string[] = "C://Eigene Dateien/FOM/C-Code/main.c";
-	printf("%s",string[0]);
+	if(strstr(string,'.'))
+		printf("true");
 	
+		//char extension[] = 
 	
 	//Ende
 	printf("\n\n");
